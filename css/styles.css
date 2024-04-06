@@ -565,12 +565,11 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: row;
-  gap: 16px;
   background: #4d5ae5;
 }
 
 .subscribe-icon {
+  margin-left: 16px;
   fill: #fff;
 }
 
