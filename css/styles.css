@@ -637,9 +637,7 @@ footer {
   top: 24px;
   background-color: #e7e9fc;
   outline: transparent;
-
   border-radius: 100%;
-
   stroke-width: 1px;
   stroke: rgba(0, 0, 0, 0.1);
 }
