@@ -700,11 +700,17 @@ footer {
   margin-bottom: 8px;
 }
 
+.modal-input:focus {
+  border-color: #4d5ae5;
+}
 .modal-input:active {
   border-color: #4d5ae5;
 }
 
-.modal-input:active + .modal-icons {
+.modal-input:active + .modal-icons:active {
+  fill: #4d5ae5;
+}
+.modal-input:focus + .modal-icons:focus {
   fill: #4d5ae5;
 }
 
@@ -714,8 +720,7 @@ footer {
 .modal-label {
   font-weight: 400;
   font-size: 12px;
-  line-height: 14px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
   display: block;
