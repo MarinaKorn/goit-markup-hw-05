@@ -800,6 +800,14 @@ footer {
   text-decoration-skip-ink: none;
   color: #4d5ae5;
 }
+
+.modal-input:checked + .check-text > .check-span {
+  background-color: #404bbf;
+  border: none;
+  fill: #ffffff;
+  border-color: #404bbf;
+}
+
 .submit-bottom {
   border-radius: 4px;
   height: 56px;
