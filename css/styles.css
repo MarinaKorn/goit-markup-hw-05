@@ -826,8 +826,6 @@ footer {
   text-decoration-skip-ink: none;
   color: #4d5ae5;
 }
-.mob-icon-footer-container {
-}
 
 .visually-hidden:checked + .check-text > .check-span {
   background-color: #404bbf;
