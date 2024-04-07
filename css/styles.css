@@ -801,7 +801,7 @@ footer {
   color: #4d5ae5;
 }
 
-.modal-input:checked + .check-text > .check-span {
+.visually-hidden:checked + .check-text > .check-span {
   background-color: #404bbf;
   border: none;
   fill: #ffffff;
