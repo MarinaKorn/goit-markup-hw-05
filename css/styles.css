@@ -69,6 +69,20 @@ p {
   margin-right: 76px;
 }
 
+.header-button {
+  display: block;
+  margin-left: auto;
+}
+.header-button-svg {
+  width: 18px;
+  height: 16px;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border: none;
+  outline: transparent;
+  cursor: pointer;
+}
 .logo-part {
   color: #2e2f42;
 }
@@ -83,7 +97,8 @@ p {
 }
 
 .header-nav-list {
-  display: flex;
+  /* display: flex; */
+  display: none;
   gap: 40px;
 }
 
@@ -124,7 +139,8 @@ p {
   margin-left: auto;
 }
 .address-list {
-  display: flex;
+  /* display: flex; */
+  display: none;
   gap: 40px;
 }
 
@@ -163,6 +179,39 @@ main {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.mob-menu {
+  position: fixed;
+  top: 0;
+  background-color: #fff;
+  width: 100vw;
+  height: 100vh;
+  padding: 24px;
+}
+.menu-close {
+  display: block;
+  margin-left: auto;
+}
+.mob-list {
+}
+.mob-link {
+}
+.current {
+}
+.mob-address {
+}
+.mob-address-list {
+}
+.mob-address-link {
+}
+.mob-icon-footer-container-ul {
+}
+.mob-icon-footer-container {
+}
+.mob-icon-a-fotter {
+}
+.mob-icon-footer {
 }
 
 .title {
@@ -825,6 +874,8 @@ footer {
   text-decoration: underline;
   text-decoration-skip-ink: none;
   color: #4d5ae5;
+}
+.mob-icon-footer-container {
 }
 
 .visually-hidden:checked + .check-text > .check-span {
