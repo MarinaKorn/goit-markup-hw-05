@@ -147,8 +147,12 @@ main {
 
 .title-back {
   background-color: #2e2f42;
-  padding-top: 188px;
-  padding-bottom: 188px;
+  /* padding-top: 188px;
+  padding-bottom: 188px; */
+  padding-top: 72px;
+  padding-bottom: 72px;
+  padding-left: 52px;
+  padding-right: 52px;
   margin: 0 auto;
   max-width: 1440px;
   background-image: linear-gradient(
@@ -163,7 +167,8 @@ main {
 
 .title {
   font-weight: 700;
-  font-size: 56px;
+  /* font-size: 56px; */
+  font-size: 36px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
@@ -846,7 +851,16 @@ footer {
 }
 @media screen and (min-width: 768px) {
   .container {
-    width: 766px;
+    width: 768px;
+  }
+  .title-back {
+    padding-top: 112px;
+    padding-bottom: 112px;
+    padding-left: 136px;
+    padding-right: 136px;
+  }
+  .title {
+    font-size: 56px;
   }
   .team-back {
     padding-bottom: 96px;
@@ -886,13 +900,16 @@ footer {
 
 @media screen and (min-width: 1158px) {
   .container {
-    width: 1002px;
+    width: 1158px;
   }
   .team-back {
     padding-bottom: 120px;
     padding-top: 120px;
   }
-
+  .title-back {
+    padding-top: 188px;
+    padding-bottom: 188px;
+  }
   .portfolio-back {
     background-color: #fff;
     padding-bottom: 120px;
