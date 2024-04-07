@@ -522,15 +522,21 @@ footer {
   letter-spacing: 0.02em;
   color: #fff;
   margin-bottom: 16px;
+  margin-left: 80px;
 }
 
 .subscribe-input {
-  border: 1px solid #fff;
+  border: 1px solid #ffffff;
   border-radius: 4px;
   width: 264px;
   height: 40px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background-color: #2e2f42;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  color: #ffffff;
 }
 .subscribe-input::placeholder {
   color: #fff;
@@ -542,18 +548,15 @@ footer {
   letter-spacing: 0.04em;
 }
 
-.subscribe-button-div {
-}
-
 .subscribe-form {
   display: flex;
+  gap: 24px;
 }
 
 .subscribe-button {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   text-align: center;
@@ -561,12 +564,13 @@ footer {
   border-radius: 4px;
   border: none;
   padding: 8px 24px;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #4d5ae5;
+  background-color: #4d5ae5;
+  cursor: pointer;
 }
 
 .subscribe-icon {
@@ -727,7 +731,6 @@ footer {
   margin-bottom: 4px;
 }
 .modal-icons {
-  fill: #2e2f42;
   position: absolute;
   left: 16px;
   top: 50%;
