@@ -720,7 +720,7 @@ footer {
 .modal-input:active + .modal-icons:active {
   fill: #4d5ae5;
 }
-.modal-input:focus + .modal-icons:focus {
+.modal-input:focus + .modal-icons {
   fill: #4d5ae5;
 }
 
