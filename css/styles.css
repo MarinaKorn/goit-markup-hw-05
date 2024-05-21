@@ -326,6 +326,7 @@ main {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .icon-team-container-ul {
@@ -383,6 +384,7 @@ main {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+  margin-bottom: 8px;
 }
 
 .portfolio-back {
@@ -438,10 +440,9 @@ main {
 }
 
 .portfolio-li {
-  margin: 32px 16px;
+  padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
 
 .portfolio-item {
@@ -767,7 +768,6 @@ footer {
 }
 .modal-div {
   position: relative;
-  margin-bottom: 16px;
 }
 
 .modal-comment {
@@ -816,6 +816,7 @@ footer {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  margin-right: 8px;
 }
 .check-link {
   line-height: 16px;
